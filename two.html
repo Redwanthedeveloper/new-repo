@@ -2,66 +2,40 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Home || Grow with redwan</title>
-    <style>
-        .main2 {
-            margin: 2px;
-            background-color: rgb(25, 200, 200);
-            border-radius: 10px;
-            padding: 2px;
-            width: 24%;
-            display: inline-block;
-        }
-
-        .modified {
-            background-color: rgb(84, 37, 172);
-        }
-
-        div h1 {
-            text-align: center;
-        }
-
-        a {
-            background-color: rgb(9, 19, 77);
-            padding: 5px 10px;
-            border-radius: 30px;
-            text-decoration: none;
-            color: #fff;
-
-        }
-
-        .button {
-            margin: 30px 0;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="main2">
-        <h1>Grow with Redwan</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, omnis quo illum sunt officiis labore eos.
-            Modi debitis quia officiis?</p>
-        <h2></h2>
-    </div>
-    <div class="main2">
-        <h1>Grow with Redwan</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, omnis quo illum sunt officiis labore eos.
-            Modi debitis quia officiis?</p>
-    </div>
-    <div class="main2">
-        <h1>Grow with Redwan</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, omnis quo illum sunt officiis labore eos.
-            Modi debitis quia officiis?</p>
-    </div>
-    <div class="main2 modified">
-        <h1>Grow with Redwan</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, omnis quo illum sunt officiis labore eos.
-            Modi debitis quia officiis?</p>
-    </div>
+    <div class="form__wrapper">
 
+        <div class="form__inner">
+            <form>
+                <div class="input__item">
+                    <label for="name">First name:</label> <br>
+                    <input type="text" placeholder="Enter your name" name="name">
+                </div>
+                <div class="input__item">
+                    <label for="email">Email:</label> <br>
+                    <input type="email" placeholder="Enter your email" name="email">
+                </div>
+                <div class="input__item">
 
-    <div class="button">
-        <a href="#">Link</a>
+                    <label for="password">Password:</label> <br>
+                    <input type="password" placeholder="Enter your name" name="password">
+                </div>
+
+                <button type="submit">
+                    Login
+                </button>
+
+            </form>
+        </div>
     </div>
 
 </body>
